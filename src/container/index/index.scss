@@ -11,7 +11,7 @@
 
 	padding: 16px 16px 8px 16px;
 
-	&__top-panel {
+	.panel {
 		display: flex;
 		justify-content: space-between;
 		margin-bottom: 28px;
@@ -23,12 +23,12 @@
 		gap: 20px;
 	}
 
-	&__nav {
+	.header {
 		display: flex;
 		justify-content: space-between;
 		margin-bottom: 20px;
 
-		.screen__profile-photo {
+		.img {
 			clip-path: circle();
 		}
 	}
@@ -114,12 +114,12 @@
 	}
 }
 
-.screen__info {
+.panel__info {
 	display: flex;
 	gap: 4px;
 }
 
-.screen__time {
+.panel__time {
 	font-weight: 700;
 	font-size: 15px;
 	color: #000;
