@@ -3,11 +3,98 @@
 в якому міститься код, котрий буде віддаватися по шляху (PATH) - "/"
 }}
 
-<main>
-	{{>heading title="Index" info=data.test}}
+<main class="screen" id="screen">
+    {{!-- <div class="screen__top-panel">
+            <p class="screen__time">9:41</p>
+        <div class="screen__info">
+            <img src="/svg/signal.svg" alt="signal" class="screen__icon">
+            <img src="/svg/wi-fi.svg" alt="wifi" class="screen__icon">
+            <img src="/svg/battery.svg" alt="batery" class="screen__icon">
+        </div>
+    </div> --}}
+
+    <div class="screen__content">
+        
+
+            {{!-- <header class="screen__nav">
+                <button class="button">
+                    <img src="/svg/back-button.svg" alt="back-button">
+                </button>
+                <button class="button">
+                    <img src="/img/ava.jpg" alt="profile-photo" class="screen__profile-photo" height="24" width="24">
+                </button>
+            </header> --}}
+       
+
+        {{!-- <h1 class="title">
+                Мій Блог
+        </h1> --}}
+
+        {{!-- <div class="news__list">
+           <div class="news button">
+                <div class="news__header">
+                    <div class="news__badge-list">
+                    <span class="news__badge-category news__badge-category--1">
+                        Важливо
+                    </span>
+                    <span class="news__badge-category news__badge-category--2">
+                        Нова
+                    </span>
+                </div>
+                <span class="news__time">25.01</span>
+                </div>
+
+                <p class="news__info">
+                    До біса планувальник, наймаємо дизайнера і готуємося до презентації, як Джобс
+                </p>
+            </div>
+
+             <div class="news button news--viewed">
+                <div class="news__header">
+                    <div class="news__badge-list">
+                    <span class="news__badge-category news__badge-category--1">
+                        Важливо
+                    </span>
+                    <span class="news__badge-category news__badge-category--2">
+                        Нова
+                    </span>
+                </div>
+                <span class="news__time">15.01</span>
+                </div>
+
+                <p class="news__info">
+                    Ми хотіли щоб у цьому чаті було близько 150 людей щоб зробити якісний пак самопрезентацій
+                </p>
+            </div>
+
+             <div class="news button">
+                <div class="news__header">
+                    <div class="news__badge-list">
+                    <span class="news__badge-category news__badge-category--1">
+                        Важливо
+                    </span>
+                    <span class=" news__badge-category news__badge-category--2">
+                        Нова
+                    </span>
+                </div>
+                <span class="news__time">25.01</span>
+                </div>
+
+                <p class="news__info">
+                    До біса планувальник, наймаємо дизайнера і готуємося до презентації, як Джобс
+                </p>
+            </div>
+        </div> --}}
+
+        {{!-- <div class="screen__close-line">
+
+        </div> --}}
+    </div>
 </main>
 
 {{!
-    Цей код містить лише те, що буде виводитись в <body>
+Цей код містить лише те, що буде виводитись в
+
+<body>
     Адже наш layout/default.hbs має вже структуру HTML
-}}
+    }}
